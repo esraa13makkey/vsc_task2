@@ -339,7 +339,135 @@ Date:   Fri Dec 31 11:10:00 2021 +0200
 
 
 NOTS====>chenge last commit to became same the 3th commit welome
-//////////////////// 
+////////////////////
+5
+git revert HEAD
+
+6==> last 5 commit
+ommit d6e8cc30ca37da52066d40e6d430d7655228c13a (HEAD -> winter)
+Author: fa <fatmakhairy66@gmail.com>
+Date:   Fri Dec 31 16:06:04 2021 +0200
+
+    Revert "Revert "edit winter""
+    
+    This reverts commit 3996b60acf5afe7e91ce388422fe57c0f3297dbd.
+    
+    ans:5BackToHead
+
+commit 3996b60acf5afe7e91ce388422fe57c0f3297dbd
+Author: fa <fatmakhairy66@gmail.com>
+Date:   Fri Dec 31 15:26:04 2021 +0200
+
+    Revert "edit winter"
+    
+    This reverts commit 149e790558221184a715e4df57b92a74b3437212.
+    
+     wlcome
+
+commit 149e790558221184a715e4df57b92a74b3437212
+Author: fa <fatmakhairy66@gmail.com>
+Date:   Fri Dec 31 15:25:27 2021 +0200
+
+    edit winter
+
+commit 6a43fe2350bf32bd2d9ff1ba40320888d8aaed9a (origin/winter)
+Author: fa <fatmakhairy66@gmail.com>
+Date:   Fri Dec 31 15:23:59 2021 +0200
+
+    text file
+
+commit 5a821f883799ab10d306cb441030affcd821debe
+Author: fa <fatmakhairy66@gmail.com>
+Date:   Fri Dec 31 15:11:45 2021 +0200
+
+    Revert "edit winter"
+    
+//
+ans:7
+
+diff --git a/index.html b/index.html
+index fda2a67..fe7609f 100644
+--- a/index.html
++++ b/index.html
+@@ -3,12 +3,11 @@
+ 
+     </head>
+     <body>
+-        <h1 color=red>seasons of the year</h1>
+-        <ul>
+-            <li><a href="summer.html">summer</a></li>
+-            <li>spring</li>
+-            <li>autumn</li>
+-            <li>winter</li>
++        <ul>year 2022
++            <li>january </li>
++            <li>febraury</li>
++            <li>march</li>
++            <li>april</li>
+         </ul>
+     </body>
+ </html>
+\ No newline at end of file
+diff --git a/newFile.html b/newFile.html
+deleted file mode 100644
+index 565d953..0000000
+--- a/newFile.html
++++ /dev/null
+@@ -1,7 +0,0 @@
+-<html>
+-    <head><title>new</title></head>
+-    <body>
+-        <h1 coler =blue>Welcome in newFile ans 7</h1>
+-         
+-    </body>
+-</html>
+\ No newline at end of file
+diff --git a/summer.html b/summer.html
+///////////////////
+9
+* 95f860c (HEAD -> summer, origin/summer) add nw file
+| * d6e8cc3 (winter) Revert "Revert "edit winter""
+| * 3996b60 Revert "edit winter"
+| * 149e790 edit winter
+| * 6a43fe2 (origin/winter) text file
+| * 5a821f8 Revert "edit winter"
+| * 182a55a edit winter
+| * 5d68128 push new file in winter
+| * 4f62c18 revert
+| * 676979c add branch 2
+| | * ca97c57 (main) remove file
+| |/  
+| *   12d9bbe (origin/main, origin/live, origin/HEAD) Merge branch 'summer' into main merge summer to main
+| |\  
+| |/  
+|/|   
+* | 5e36419 f
+| *   0a3b128 hello from NewYear1
+| |\  
+| | *   7fa02cf new head
+| | |\  
+| |_|/  
+|/| |   
+| | * 3f2118d (origin/NewYearS) wlcome
+| * | 421506d (origin/NewYear1) add NewYear1
+| |/  
+| | * e07bfe7 (origin/FetchBranch)  add new fetch branch
+| | *   95ef4d5 Merge branch 'main' of https://github.com/esraa13makkey/vsc_task2
+| | |\  
+| |_|/  
+|/| |   
+* | | 16475d5 create branch
+| | * d13cf89  editing when merging
+| |/| 
+|/| | 
+| | * 7ac80db (origin/NewYear)  add month and h1
+| |/  
+* / 3eaac65 edit main
+|/  
+* 5c7f3e8 new year
+(END)
+///////////////////////////
+
 
 
 
