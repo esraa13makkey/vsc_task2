@@ -1,0 +1,187 @@
+
+Fatma Khairy Task2
+
+history befor revert
+
+commit 182a55ac09d21c4959ec166d867a842996c1fe4d (HEAD -> winter)
+Author: fa <fatmakhairy66@gmail.com>
+Date:   Fri Dec 31 15:10:19 2021 +0200
+
+    edit winter
+
+commit 5d681282034d34df2eef689f47bd464aa483da9e (origin/winter)
+Author: fa <fatmakhairy66@gmail.com>
+Date:   Fri Dec 31 15:05:19 2021 +0200
+
+    push new file in winter
+
+commit 4f62c1895ec7db862745a7f118b598c954977197
+Author: fa <fatmakhairy66@gmail.com>
+Date:   Fri Dec 31 14:52:40 2021 +0200
+
+    revert
+
+commit 676979c96d9f91ddf038f9d039f5677d2845fe40
+Author: fa <fatmakhairy66@gmail.com>
+Date:   Fri Dec 31 14:48:11 2021 +0200
+
+    add branch 2
+
+commit 12d9bbed39f1dfc71e1f67bc84f4604fc5e8cdf6 (origin/main, origin/live, origin/HEAD, main)
+Merge: 0a3b128 5e36419
+Author: fa <fatmakhairy66@gmail.com>
+Date:   Fri Dec 31 13:42:11 2021 +0200
+
+    Merge branch 'summer' into main
+    merge summer to main
+
+commit 5e36419738e2e28587298ae516606bbea01247c9 (origin/summer, summer)
+Author: fa <fatmakhairy66@gmail.com>
+Date:   Fri Dec 31 13:39:46 2021 +0200
+
+    f
+
+commit 0a3b1282f048afdb8ba2a442f6a6c94b2332827d
+Merge: 421506d 7fa02cf
+Author: Manar-Ali-Elsayed <manar.ali.914@gmail.com>
+Date:   Fri Dec 31 13:16:06 2021 +0200
+
+    hello from NewYear1
+
+commit 7fa02cf3a65ab43443ec3a5081b951c4424220e6
+Merge: 3f2118d 16475d5
+Author: somaya <asomaya579@gmail.com>
+Date:   Fri Dec 31 13:10:14 2021 +0200
+
+    new head
+
+commit 16475d51f18ec954c5d9465f0fe7bd0a2a8e6d5f
+Author: fa <fatmakhairy66@gmail.com>
+Date:   Fri Dec 31 12:23:20 2021 +0200
+
+    create branch
+
+commit 3eaac65364aa5724b58825e0653aa5b80091cf6e
+Author: fa <fatmakhairy66@gmail.com>
+Date:   Fri Dec 31 12:08:41 2021 +0200
+
+    edit main
+
+commit 3f2118d2c1321ac07c31af6bb13663fc75bf5166 (origin/NewYearS)
+Author: somaya <asomaya579@gmail.com>
+Date:   Fri Dec 31 12:04:20 2021 +0200
+
+    wlcome
+
+commit 421506d0fbf695554db633a096efdd340244a3a8 (origin/NewYear1)
+Author: Manar-Ali-Elsayed <manar.ali.914@gmail.com>
+Date:   Fri Dec 31 12:00:41 2021 +0200
+
+    add NewYear1
+
+commit 5c7f3e80a6bfbb2c9c5d3f1ba3fbe16b5eaf90bc
+Author: esraa13makkey <esraa99makkey@gmail.com>
+Date:   Fri Dec 31 11:10:00 2021 +0200
+
+    new year
+
+//////////////////////////////
+AFTER REVERT
+commit 5a821f883799ab10d306cb441030affcd821debe (HEAD -> winter)
+Author: fa <fatmakhairy66@gmail.com>
+Date:   Fri Dec 31 15:11:45 2021 +0200
+
+    Revert "edit winter"
+    
+    This reverts commit 182a55ac09d21c4959ec166d867a842996c1fe4d.
+
+commit 182a55ac09d21c4959ec166d867a842996c1fe4d
+Author: fa <fatmakhairy66@gmail.com>
+Date:   Fri Dec 31 15:10:19 2021 +0200
+
+    edit winter
+
+commit 5d681282034d34df2eef689f47bd464aa483da9e (origin/winter)
+Author: fa <fatmakhairy66@gmail.com>
+Date:   Fri Dec 31 15:05:19 2021 +0200
+
+    push new file in winter
+
+commit 4f62c1895ec7db862745a7f118b598c954977197
+Author: fa <fatmakhairy66@gmail.com>
+Date:   Fri Dec 31 14:52:40 2021 +0200
+
+    revert
+
+commit 676979c96d9f91ddf038f9d039f5677d2845fe40
+Author: fa <fatmakhairy66@gmail.com>
+Date:   Fri Dec 31 14:48:11 2021 +0200
+
+    add branch 2
+
+commit 12d9bbed39f1dfc71e1f67bc84f4604fc5e8cdf6 (origin/main, origin/live, origin/HEAD, main)
+Merge: 0a3b128 5e36419
+Author: fa <fatmakhairy66@gmail.com>
+Date:   Fri Dec 31 13:42:11 2021 +0200
+
+    Merge branch 'summer' into main
+    merge summer to main
+
+commit 5e36419738e2e28587298ae516606bbea01247c9 (origin/summer, summer)
+Author: fa <fatmakhairy66@gmail.com>
+Date:   Fri Dec 31 13:39:46 2021 +0200
+
+    f
+
+commit 0a3b1282f048afdb8ba2a442f6a6c94b2332827d
+Merge: 421506d 7fa02cf
+Author: Manar-Ali-Elsayed <manar.ali.914@gmail.com>
+Date:   Fri Dec 31 13:16:06 2021 +0200
+
+    hello from NewYear1
+
+commit 7fa02cf3a65ab43443ec3a5081b951c4424220e6
+Merge: 3f2118d 16475d5
+Author: somaya <asomaya579@gmail.com>
+Date:   Fri Dec 31 13:10:14 2021 +0200
+
+    new head
+
+commit 16475d51f18ec954c5d9465f0fe7bd0a2a8e6d5f
+Author: fa <fatmakhairy66@gmail.com>
+Date:   Fri Dec 31 12:23:20 2021 +0200
+
+    create branch
+
+commit 3eaac65364aa5724b58825e0653aa5b80091cf6e
+Author: fa <fatmakhairy66@gmail.com>
+Date:   Fri Dec 31 12:08:41 2021 +0200
+
+    edit main
+
+commit 3f2118d2c1321ac07c31af6bb13663fc75bf5166 (origin/NewYearS)
+Author: somaya <asomaya579@gmail.com>
+Date:   Fri Dec 31 12:04:20 2021 +0200
+
+    wlcome
+
+commit 421506d0fbf695554db633a096efdd340244a3a8 (origin/NewYear1)
+Author: Manar-Ali-Elsayed <manar.ali.914@gmail.com>
+Date:   Fri Dec 31 12:00:41 2021 +0200
+
+    add NewYear1
+
+commit 5c7f3e80a6bfbb2c9c5d3f1ba3fbe16b5eaf90bc
+Author: esraa13makkey <esraa99makkey@gmail.com>
+Date:   Fri Dec 31 11:10:00 2021 +0200
+
+    new year
+(END)
+
+////////////////////////////////////
+not on revert
+
+my change on winter file is deleted but edit winter commit still here
+
+
+
